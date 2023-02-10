@@ -19,13 +19,13 @@
   
 #### Request
 
-![img_2.png](img_2.png)
+![img_2.png](Img/img_2.png)
 
 #### Response
 
-![img_3.png](img_3.png)
+![img_3.png](Img/img_3.png)
 ### ✅ 웹 애플리케이션의 동작원리
-![img_1.png](img_1.png)
+![img_1.png](Img/img_1.png)
 
 1. 웹 클라이언트가 웹 요청을 웹 컨테이너에 보낸다
 2. 웹 컨테이너는 이 요청을 처리할 웹 컴포넌트를 찾고 요청을 위임한다.
