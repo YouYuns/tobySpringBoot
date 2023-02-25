@@ -1,18 +1,16 @@
-package com.example.tobyspringboot;
+package com.example.config.autoconfig;
 
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.context.annotation.Configuration;
 
-public class Config {
+
+@Configuration
+public class TomcatWebServerConfig {
     @Bean
     public ServletWebServerFactory servletWebServerFactory() {
         return new TomcatServletWebServerFactory();
     }
 
-    @Bean
-    public DispatcherServlet dispatcherServlet(){
-        return new DispatcherServlet();
-    }
 }
